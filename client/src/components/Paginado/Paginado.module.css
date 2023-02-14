@@ -1,0 +1,32 @@
+.paginado {
+    display: flex;
+    justify-content: center;
+    padding: 0.7em 0;
+    
+  }
+  
+  .number {
+    list-style: none;
+    margin: 0 0px;
+    
+
+  }
+  
+  .number button {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid rgb(51, 51, 51);
+    padding: 0.7em 0.5em;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.71);
+    color:antiquewhite;
+
+
+  }
+  
+  .number button:hover,
+  .number button.active {
+    background-color: blue;
+    color: #fff;
+    
+  }

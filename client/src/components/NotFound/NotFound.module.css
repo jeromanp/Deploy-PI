@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  text-align: center;
+  color: #e5e5eb;
+  background-color: rgba(0, 0, 0, 0.603);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container h1 {
+  font-size: 160px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+  background-position: 100px center;
+}
+
+.container a {
+  text-decoration: none;
+  background: #e55039e0;
+  color: rgb(255, 255, 255);
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: background 0.4s linear;
+}
+
+.container a:hover {
+  background: #e55039;
+}

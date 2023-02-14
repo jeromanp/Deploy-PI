@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url("./images/47972-mapa-mundi.jpg");
+  background-size:contain;
+  background-position: center;
+  /* background-repeat: repeat-y; */
+  height: 100vh;
+  font-family: "Happy_Phantom";
+  /* font-family: "Sansation_Light"; */
+  animation: background-animation 120s linear infinite;
+}
+
+@keyframes background-animation {
+  from { background-position: 0% center; }
+  to { background-position: 100% center; }
+}
+
+@font-face{
+  font-family: "Happy_Phantom";
+  src:url("./Fonts/Happy_Phantom.eot"), 
+  url("./Fonts/Happy_Phantom.ttf")  
+}
+
+@font-face{
+  font-family: "Sansation_Light";
+  src:url("./Fonts/Sansation_Light.eot"), 
+  url("./Fonts/Sansation_Light.ttf")  
+}
+
+@font-face{
+  font-family: "Typewriter_Font";
+  src:url("./Fonts/Typewriter-Font.eot"), 
+  url("./Fonts/Typewriter-Font.ttf")  
+}
+
+@font-face{
+  font-family: "Veteran";
+  src:url("./Fonts/Veteran_Typewriter.eot"), 
+  url("./Fonts/Veteran_Typewriter.ttf")  
+}
+
+
+
+@media screen and (max-width: 580px) {
+
+  .container {
+      margin: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+      margin: 1rem 0.5rem;
+  }
+}

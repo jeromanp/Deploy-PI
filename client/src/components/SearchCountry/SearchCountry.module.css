@@ -1,0 +1,94 @@
+.container {
+  padding-top: 10px;
+}
+
+.container h1 {
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+  font-family: "Veteran";
+  justify-content: center;
+}
+
+.search input {
+  width: 70%;
+  height: 0.7rem;
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  border-radius: 9px;
+}
+
+.search input {
+  background-color: rgba(0, 0, 255, 0.229);
+  outline: none;
+  color: antiquewhite;
+}
+
+.container select {
+  font-family: "Typewriter_Font";
+  align-items: center;
+  width: 95%;
+  height: 2rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  border: 2px solid blue;
+  background-color: rgba(0, 0, 255, 0.229);
+  color: antiquewhite;
+
+  border-radius: 9px;
+  appearance: none;
+}
+
+.container select:focus {
+  border-color: rgb(235, 232, 230);
+  outline: none;
+  background-color: rgb(5, 63, 238);
+  color: antiquewhite;
+}
+
+.container button {
+  width: auto;
+  height: auto;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Typewriter_Font";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(20%, -5%); */
+}
+
+.buttonClear button {
+  transform: translate(30%, 0%);
+}
+
+.container button:hover {
+  background-color: white;
+  color: blue;
+}
+
+.search {
+  display: flex;
+  align-self: flex-end;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.search button {
+  transform: translate(0%, -85%);
+}
+
+.search button:hover {
+  background-color: white;
+  color: blue;
+}
+
+.getActivity button {
+  transform: translate(20%, 50%);
+}

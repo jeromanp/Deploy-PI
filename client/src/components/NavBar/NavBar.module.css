@@ -1,0 +1,32 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 82px;
+    font-family: "Veteran";
+    font-size: larger;
+    color:antiquewhite;
+
+  }
+  
+  a {
+    color:antiquewhite;
+    text-decoration: none;
+    margin: 5px 120px;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  .navbar{
+    position: fixed;
+    background-color: rgba(6, 6, 7, 0.726);
+    width: 100%;
+    left: 0;
+    padding: 20px 82px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+  }
+
